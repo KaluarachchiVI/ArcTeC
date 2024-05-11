@@ -1,0 +1,117 @@
+@import url("https://fonts.googleapis.com/css2?family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap");
+
+.App {
+  min-height: 100vh;
+  display: flex;
+  background-image: url("./background.png");
+  background-position: center;
+  background-size: cover;
+}
+
+::-webkit-scrollbar {
+  width: 0px;
+}
+
+::-webkit-scrollbar-thumb {
+  background: rgba(136, 136, 136, 0.281);
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: #555;
+}
+
+.dashboard-container {
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-family: 'Work Sans', sans-serif;
+}
+
+.dashboard-container form {
+    display: flex;
+    flex-direction: column;
+    width: 300px;
+    margin-bottom: 20px;
+}
+
+.dashboard-container form input,
+.dashboard-container form textarea {
+    margin-bottom: 10px;
+    padding: 8px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+}
+
+.dashboard-container form button {
+    padding: 10px 15px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.dashboard-container form button:hover {
+    background-color: #0056b3;
+}
+
+.dashboard-container ul {
+    list-style: none;
+    padding: 0;
+}
+
+.dashboard-container ul li {
+    margin-bottom: 20px;
+    padding: 20px;
+    background-color: #f9f9f9;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.dashboard-container ul li h3 {
+    margin-bottom: 10px;
+}
+
+.dashboard-container ul li p {
+    margin-bottom: 5px;
+}
+
+.dashboard-container ul li button {
+    padding: 8px 12px;
+    background-color: #dc3545;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.dashboard-container ul li button:hover {
+    background-color: #c82333;
+}
+
+.dashboard-container {
+    width: 80%;
+    margin: 0 auto; /* This will center the container */
+    text-align: center; /* This will center the text within the container */
+}
+
+.left-section {
+    width: 50%;
+    padding-right: 20px;
+    display: inline-block;
+    text-align: left; /* Align text to the left within the left section */
+}
+
+.right-section {
+    width: 50%;
+    padding-left: 20px;
+    display: inline-block;
+    text-align: left; /* Align text to the left within the right section */
+}
+
+.container{
+    padding-top :100px;
+}
