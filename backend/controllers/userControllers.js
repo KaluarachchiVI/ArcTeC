@@ -82,6 +82,7 @@ const registerUser = asyncHandler(async (req, res) => {
     email,
     password,
     pic,
+    role: 'Customer',
   });
 
   if (user) {
