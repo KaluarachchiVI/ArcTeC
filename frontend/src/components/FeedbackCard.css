@@ -1,0 +1,60 @@
+/* CSS for FeedbackCard form */
+.form-container {
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    padding: 20px;
+    max-width: 400px;
+    margin: 0 auto;
+    background-color: #f9f9f9;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  }
+  
+  .form-container label {
+    display: block;
+    margin-bottom: 10px;
+  }
+  
+  .form-container input[type="text"],
+  .form-container input[type="email"],
+  .form-container textarea {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    margin-bottom: 10px;
+  }
+  
+  .form-container textarea {
+    height: 100px;
+    text-align: left;
+  }
+  
+  .form-container button {
+    background-color: #4caf50;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    margin-right: 10px;
+  }
+  
+  .form-container button:hover {
+    background-color: #45a049;
+  }
+  
+  .form-container .cancel-btn {
+    background-color: #f44336;
+  }
+  
+  .form-container .cancel-btn:hover {
+    background-color: #d32f2f;
+  }
+  
+  /* Align textareas to the left */
+  .form-container input[type="text"],
+  .form-container input[type="email"],
+  .form-container textarea {
+    text-align: left;
+  }
